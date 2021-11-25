@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.button {
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.contestants {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+}
+
+.players {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.dice {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

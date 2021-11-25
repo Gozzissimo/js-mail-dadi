@@ -5,10 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Gioco dei Dadi</title>
 </head>
 
 <body>
+    <div class="container">
+        <button class="button" id="generate">Lancia i dadi</button>
+            <div class="contestants">
+                <h2>RAZZA UMANA</h2>
+                <h2>MACCHINE RIBELLI</h2>
+            </div>
+            <div class="players">
+                <div class="dice" id="human">
+                </div>
+                <div class="dice" id="machine">
+                </div>
+            </div>
+        <h1 id="result"></h1>
+    </div>
+    
     <script src="js/script.js"></script>
 </body>
 
